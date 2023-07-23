@@ -3,7 +3,7 @@ import pickle
 import cohere
 
 # Initialize Cohere Client
-co = cohere.Client('mBS7SXo0I577gd5g5lScX3rw1YKupJHQq866YvS6')  # Replace with your Cohere API key
+co = cohere.Client('SotOtnYxF4pt3Xlkiad4IaukAC8us3MU89OOgrIP')  # Replace with your Cohere API key
 
 # Function to generate text using Cohere API
 # Function to generate text using Cohere API
