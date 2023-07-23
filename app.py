@@ -3,13 +3,13 @@ import pickle
 import cohere
 
 # Initialize Cohere Client
-co = cohere.Client('SotOtnYxF4pt3Xlkiad4IaukAC8us3MU89OOgrIP')  # Replace with your Cohere API key
+co = cohere.Client('yfcUxsw5p0yjQuylafqwetGPOMB6FCyaiZtNKANP')  # Replace with your Cohere API key
 
 # Function to generate text using Cohere API
 # Function to generate text using Cohere API
 def generate_text(prompt, temperature):
     response = co.generate(
-        model='7f4b5dda-dcf2-40ca-9d4c-afdcaf435480-ft',  # Replace with your Cohere model ID
+        model='613b48c9-f4d1-4ed1-9be4-dae7468a4acb-ft',  # Replace with your Cohere model ID
         prompt=prompt,
         max_tokens= 2000,
         temperature=temperature,
