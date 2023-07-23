@@ -15,7 +15,7 @@ def generate_text(prompt, temperature):
         temperature=temperature,
         stop_sequences=['\n\n'],
     )
-    return response
+    return response['text']
 
 # Function to save chat history
 def save_chat_history(chat_history):
