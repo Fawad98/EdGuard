@@ -32,6 +32,17 @@ def load_chat_history():
 
 # Streamlit app
 def main():
+    st.markdown(
+        """
+        <style>
+        body {
+            background-image: url("https://www.creativefabrica.com/wp-content/uploads/2020/08/09/Set-of-hand-drawn-books-in-doodle-style-Graphics-4900608-1-580x385.jpg"); /* Replace "background.jpg" with your custom image */
+            background-size: cover;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
     st.title("EdGuard 📚🤓")
     st.write("Welcome to EdGuard your learning partner! 😉😎")
     st.write("Use the example prompt or write your own. ✍🏼")
