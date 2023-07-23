@@ -66,7 +66,7 @@ def main():
         with st.spinner("Generating..."):
             generated_text = generate_text(prompt, temperature)
         st.success("Yay!🎉 I found something, let's look at it.")
-        st.write(generated_text)
+        st.write(generated_text['text'])
         
         # Save chat history
         chat_history.append({"Question": prompt, "Response": generated_text})
