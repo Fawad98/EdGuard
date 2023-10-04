@@ -56,10 +56,9 @@ def main():
     
     # Example prompts
     example_prompts = [
-        "A ball is thrown vertically upward with an initial velocity of 20 m/s. Assuming no air resistance, calculate the time it takes for the ball to reach its maximum height and the maximum height reached by the ball.",
-        "Calculate the number of moles of sodium chloride (NaCl) present in 250 grams of NaCl. (Molar Mass of NaCl = 58.44 g/mol)",
-        "What is the value of x: ((7x*2)/9)+8=10. ",
-        "A bakery sells cupcakes for $2.50 each. If Sarah buys 5 cupcakes and John buys 3 cupcakes, how much do they spend in total?"
+        "What is the acceleration due to gravity on the surface of the Earth (approximately 9.81 m/s²)?",
+        "What is the molar mass of carbon dioxide (CO2) to the nearest gram per mole (approximately 44 g/mol)?",
+        "Solve for x: 2x + 5 = 11."
     ]
     
     # Prompt selection
